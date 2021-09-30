@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
+    <title>Michael Myat</title>
     <style>
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'Courier New', sans-serif;
             scroll-behavior: smooth;
         }
 
@@ -77,12 +77,15 @@
         .next a {
             color: rgb(33, 37, 41);
         }
+        #cursive {
+            font-family: Brush Script MT;
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing" id="cursive">Michael Myat<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -94,7 +97,7 @@
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#courses">Courses</a>
+                    <a class="nav-link" href="#otters">Otters</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -104,15 +107,15 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Michael!</h4>
         </div>
         <div class="row mx-auto">
             <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
                 University.</h5>
         </div>
         <div class="row my-4">
-            <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Python" /></div>
+            <div class="col my-3"><img src="images/visualstudio.png" class="lang" data-toggle="tooltip" data-placement="top"
+                    title="Visual Studio" /></div>
             <div class="col my-3"><img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="Angular" /></div>
             <div class="col my-3"><img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
@@ -128,8 +131,7 @@
             <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="ASP.NET" /></div>           
                      <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Microsoft SQL Server" /></div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="MongoDB" /></div>
+                    title="Microsoft SQL Server" /></div>
 
         </div>
         <div class="row my-4">
@@ -137,88 +139,107 @@
                 <a href="#projects"><button type="button" class="btn btn-outline">Projects</button></a>
             </div>
             <div class="col">
-                <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
+                <a href="#otters"><button type="button" class="btn btn-outline">Otters</button></a>
             </div>
             <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
             </div>
         </div>
         <div class="row mt-5 next">
-            <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Projects"></i></a> </div>
-
-    </div>
+            <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"></i></a> </div>
+                </div>
+                
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
+            <h5 class="display-5 mx-auto faded text-center mb-4">Here are some of the projects that I have worked on!</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5>Game Database</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+            <p class="text-justify">A website with a collection of games where users can rate, favorite or browse games! All using ASP.Net for backend and HTML/CSS for front end.</p>           
+            <a href="http://cis-iis2.temple.edu/Spring2021/CIS3342_tuj36142/TermProject/Login.aspx"> <img src="images/gameranks.jpg" class="img-fluid"></a> 
+            
+            
         </div>
         <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
+            <h5>Polymer</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
+            <p class="text-justify">A website that showcases how to use Polymer, an open-source JavaScript library using Web Components.</p>
+            <a href="http://cis-iis2.temple.edu/Spring2020/CIS3344_tuj36142/polymer/tutorial.html"> <img src="images/polymer.JPG" class="img-fluid"></a>
         </div>
         <div class="row w-100">
-            <h5>Query Dating Site</h5>
+            <h5>Online E-Commerce Site</h5>
         </div>
         <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
+            <p class="text-justify">An online coffee shop. Put together using Polymer, it showcases what an online coffee shop would look like.</p>
+           <a href="http://cis-iis2.temple.edu/Spring2020/CIS3344_tuj36142/polymer/coffeeshop.html"><img src="images/coffee.JPG" class="img-fluid"></a> 
         </div>
         <div class="row mt-5 next">
-            <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Courses"></i></a> </div>
+            <a href="#otters" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="Otters"></i></a> </div>
     </div>
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="otters">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Otters</h4>
         </div>
         <div class="row mx-auto mb-4">
-            <h5 class="display-5 mx-auto faded text-center">Not as tasty as a main course, but close.</h5>
+            <h5 class="display-5 mx-auto faded text-center">The world's greatest animal, otters. Why are they the greatest? Well, just have a look here.</h5>
         </div>
         <div class="row w-100 justify-content-center my-3">
-            <div class="col text-center course">
-                <h5>Information Systems Analysis and Design</h5>
-            </div>
-            <div class="col text-center course">
-                <h5>Server-Side Web Application Development</h5>
-            </div>
+            <div class="card mr-4" style="width: 18rem;">
+                <img class="card-img-top" src="images/otterstone.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">They have a favorite rock</h5>
+                  <p class="card-text">Otters use a small rock to crack open clams and crabs for food. Many of them have a favorite rock that they keep in their underarm pockets that they carry everywhere.</p>
+                  <a href="https://aquarium.org/a-sea-otters-toolkit/" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+              <div class="card mr-4" style="width: 18rem;">
+                <img class="card-img-top" src="images/otterhands.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">They hold hands when they sleep</h5>
+                  <p class="card-text">This is to avoid drifting away while they are sleeping or relaxing together. Otters have a great fear of losing their family members in general.</p>
+                  <a href="https://northamericannature.com/why-do-otters-hold-hands/" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+              <div class="card mr-4" style="width: 18rem;">
+                <img class="card-img-top" src="images/cuteotter.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Sea otters have the thickest fur of any animal</h5>
+                  <p class="card-text">Their fur has between 600,000 to 1,000,000 hair follicles per square inch. They have water resistent fur to provide insulation.</p>
+                  <a href="https://www.marinemammalcenter.org/animal-care/learn-about-marine-mammals/sea-otters" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
         </div>
         <div class="row w-100 justify-content-center my-3">
-            <div class="col text-center course">
-                <h5>Network Architectures</h5>
+            <div class="card mr-4" style="width: 18rem;">
+                <img class="card-img-top" src="images/otterswim.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Otters' lung capacity is 2.5 times greather than of similar-sized mammals</h5>
+                  <p class="card-text">Most otters can hold their breath for more than 5 minutes at a time while river otters can hold for up to 8 minutes.</p>
+                  <a href="https://www.wildrepublic.com/product/river-otter/" class="btn btn-primary">Learn More</a>
+                </div>
             </div>
-            <div class="col text-center course">
-                <h5>Client-Side Scripting</h5>
+            <div class="card mr-4" style="width: 18rem;">
+                <img class="card-img-top" src="images/keystoneotter.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Otters are a keystone species</h5>
+                    <p class="card-text">A keystone species are vital when it comes to keeping an ecosystem functioning. Sea otters help control the sea urchin population, which prevents urchins from overgrazing.</p>
+                    <a href="https://defenders.org/wildlife/sea-otter" class="btn btn-primary">Learn More</a>
+                </div>
             </div>
-        </div>
-        <div class="row w-100 justify-content-center my-3">
-            <div class="col text-center course">
-                <h5>Component-Based Software Design</h5>
-            </div>
-            <div class="col text-center course">
-                <h5>Database Management Systems</h5>
+            <div class="card mr-4" style="width: 18rem;">
+                <img class="card-img-top" src="images/ottereating.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Otters eat a lot</h5>
+                    <p class="card-text">Sea otters can eat up to 20-25% of their body weight on one day. They would hunt for 3 to 5 hours in a day and when nursing a youngling, they would hunt for up to 8 hours!</p>
+                    <a href="https://seaworld.org/animals/all-about/otters/diet/" class="btn btn-primary">Learn More</a>
+                </div>
             </div>
         </div>
         <div class="row mt-5 next">
@@ -227,17 +248,17 @@
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Contacts</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
+            <h5 class="display-5 mx-auto faded text-center">Just in case you need them.</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
+            <a href="mailto:michael.myat@temple.edu" class="col mx-3"><i class="fas fa-envelope-square"
                     data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
+            <a href="https://www.linkedin.com/in/michael-myat-96b5a5172/" class="col mx-3"><i class="fab fa-linkedin"
                     data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
+            <a href="https://github.com/michael-k-myat" class="col mx-3"><i class="fab fa-github-square"
                     data-toggle="tooltip" data-placement="top" title="Github"></i></a>
 
         </div>
