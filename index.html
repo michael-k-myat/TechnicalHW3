@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
+    <link href="dark-mode.css" rel="stylesheet" />
     <title>Michael Myat</title>
     <style>
         html,
@@ -80,6 +81,18 @@
         #cursive {
             font-family: Brush Script MT;
         }
+        #darkmode {
+            color:bisque;
+        }
+        .card-title {
+            color:brown;
+            font-family: 'ink free';
+        }
+        .card-text {
+            font-family: 'ink free';
+            color:brown;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -102,7 +115,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                
+                   
+
+                
             </ul>
+        </div>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label id="darkmode" class="custom-control-label" for="darkSwitch">Dark Mode</label>
         </div>
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
@@ -282,6 +303,7 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+    <script src="dark-mode-switch.min.js"></script>
 </body>
 
 </html>
